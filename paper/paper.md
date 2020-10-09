@@ -98,7 +98,7 @@ For a quick reference, the following citation commands can be used:
 # Figures
 
 Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
+![Caption for example figure.\label{fig:example}](Figure.png)
 and referenced from text using \autoref{fig:example}.
 
 # Acknowledgements
