@@ -70,6 +70,7 @@ and refer to \autoref{eq:fourier} from text.
 # Figures
 
 Figures can be included like this:
+
 ![Caption for example figure.\label{fig:example}](Figure.png)
 and referenced from text using \autoref{fig:example}.
 
