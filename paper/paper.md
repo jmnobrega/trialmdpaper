@@ -80,9 +80,9 @@ and referenced from text using \autoref{fig:example}.
 
 Tables can be included like this:
 
-![Caption for example table. \label{table:example}](figure2.png)
+![Caption for example table. \label{table:TabEx}](figure2.png)
 
-and referenced from text using \autoref{table:example}.
+and referenced from text using \autoref{table:TabEx}.
 
 # Acknowledgements
 
