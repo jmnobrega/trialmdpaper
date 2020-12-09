@@ -80,9 +80,20 @@ and referenced from text using \autoref{fig:example}.
 
 Tables can be included like this:
 
-![Caption for example table. \label1{table:TabEx}](figure2.png)
+| Method                                                | Description                           |
+| ----------------------------------------------------- | ------------------------------------- |
+| Benjamini-Hochberg procedure                  | Control of False Discovery Rate       |
+| Group Benjamini-Hochberg procedure           | Control of False Discovery Rate       |
+| Double false discovery rate                 | Control of False Discovery Rate       |
+| Subset BH-procedure                           | Control of False Discovery Rate       |
+| Bonferroni correction                         | Control of Familywise Error Rate      |
+| Berry and Berry model                        | Bayesian model for end of trial data  |
+| Berry and Berry model without point-mass    | Bayesian model for end of trial data  |
+| Interim analysis model                  | Bayesian model for interim trial data |
+| Interim analysis model without point-mass | Bayesian model for interim trial data |
+: Methods in the c212 package. \label{table:1}
 
-and referenced from text using \autoref{table:TabEx}.
+and referenced from text using (Table \ref{table:1}).
 
 # Acknowledgements
 
