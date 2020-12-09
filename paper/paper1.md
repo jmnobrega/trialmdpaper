@@ -1,19 +1,31 @@
 ---
-title: 'Gala: A Python package for galactic dynamics'
+title: 'secuTrialR: Seamless interaction with clinical trial databases in R'
 tags:
-  - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - R software
+  - clinical trials
+  - data management
+  - descriptive statistics
+  - secuTrial
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0003-0872-7098
-    affiliation: 1
+ - name: Patrick R. Wright
+   orcid: 0000-0002-1153-0846 
+   affiliation: "1, 3"
+ - name: Alan G. Haynes
+   orcid: 0000-0003-1374-081X
+   affiliation: "2, 4"
+ - name: Milica Markovic
+   orcid: 0000-0002-6973-6679
+   affiliation: "1, 3"
 affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University
+ - name: University Hospital Basel, Clinical Trial Unit, Basel, Switzerland
    index: 1
-date: 13 August 2017
+ - name: CTU Bern, University of Bern
+   index: 2
+ - name: Data Management Platform of the Swiss Clinical Trial Organisation (SCTO)
+   index: 3
+ - name: Statistics and Methodology Platform of the Swiss Clinical Trial Organisation (SCTO)
+   index: 4
+date: 14 April 2020
 bibliography: paper.bib
 ---
 
@@ -80,9 +92,9 @@ and referenced from text using \autoref{fig:example}.
 
 Tables can be included like this:
 
-![Caption for example table. \label{table:TabEx}](figure2.png)
+![Caption for example table. \label{tab:TabEx}](figure2.png)
 
-and referenced from text using \autoref{table:TabEx}.
+and referenced from text using \autoref{tab:TabEx}.
 
 # Acknowledgements
 
